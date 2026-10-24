@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "description": "Read PLAN.md and understand the architecture",
+        "completed": true,
+        "tags": ["study", "week11"],
+        "_type": "Task"
+    },
+    {
+        "id": 2,
+        "description": "Submit enhanced Task Manager design",
+        "completed": false,
+        "tags": ["assignment", "university"],
+        "due_date": "2026-10-30",
+        "_type": "DueDateTask"
+    },
+    {
+        "id": 3,
+        "description": "Implement search, filter and sort",
+        "completed": false,
+        "tags": ["coding", "python"],
+        "priority": "High",
+        "_type": "PriorityTask"
+    },
+    {
+        "id": 4,
+        "description": "Review data persistence and JSON serialization",
+        "completed": false,
+        "tags": ["review", "python"],
+        "priority": "Medium",
+        "_type": "PriorityTask"
+    },
+    {
+        "id": 5,
+        "description": "Prepare project exam slides",
+        "completed": false,
+        "tags": ["project"],
+        "due_date": "2026-11-05",
+        "_type": "DueDateTask"
+    }
+]

@@ -82,13 +82,28 @@
 | Week 11 | Agentic Document Automation | [Week11 - Lab Advance](Lab%20X%20Advance/Week11%20-%20Lab%20Advance) |
 | Week 12 | Agentic Communication Workflows (Advanced Email & SMS) | [Week12 - Lab Advance](Lab%20X%20Advance/Week12%20-%20Lab%20Advance) |
 
+### ที่มาของงาน Lab X
+
+งาน Lab X เดิมแยกอยู่คนละ repository จึงคัดลอกโค้ด ข้อมูล และ screenshot มารวมไว้ในโฟลเดอร์ข้างต้น (README ของแต่ละงานมีลิงก์กลับไปยัง repository เดิม)
+
+| งาน | Repository เดิม |
+|---|---|
+| Lab Basic Week 7 / 8 / 10 / 11 / 12 | [week7](https://github.com/sarid101/week7) · [week8](https://github.com/sarid101/week8) · [week10](https://github.com/sarid101/week10) · [week11](https://github.com/sarid101/week11) · [week12](https://github.com/sarid101/week12) |
+| Lab Advance Week 7 | [LabX-ADV1-Advanced-Web-Scraping-Introduction-to-Automated-Agents](https://github.com/sarid101/LabX-ADV1-Advanced-Web-Scraping-Introduction-to-Automated-Agents) |
+| Lab Advance Week 8 | [Week8_LabX-ADV_-Agentic-Data-Processing-Advanced-CSV-JSON-Workflows-](https://github.com/sarid101/Week8_LabX-ADV_-Agentic-Data-Processing-Advanced-CSV-JSON-Workflows-) |
+| Lab Advance Week 10 | [Week10_LabX-ADV](https://github.com/sarid101/Week10_LabX-ADV) |
+| Lab Advance Week 11 | [Week11_-Project-Planning-Design_-Building-an-Enhanced-Task-Manager](https://github.com/sarid101/Week11_-Project-Planning-Design_-Building-an-Enhanced-Task-Manager) |
+| Lab Advance Week 12 | [Week12_LabX-ADV](https://github.com/sarid101/Week12_LabX-ADV) |
+
 ## mini Project
 
-ดูรายละเอียดที่ [mini Project/README.md](mini%20Project/README.md)
+**ระบบสั่งอาหาร (Food Ordering System)** — งานกลุ่ม
+Repository ของกลุ่ม: [Kittynakaa/miniproject](https://github.com/Kittynakaa/miniproject) · สรุปที่ [mini Project/README.md](mini%20Project/README.md)
 
 ## Final Project
 
-ดูรายละเอียดที่ [Final Project/README.md](Final%20Project/README.md)
+**ระบบแนะนำสีทาเล็บจากโทนผิว (Nail Color Recommender)** — งานกลุ่ม
+Repository ของกลุ่ม: [Kittynakaa/Final_project_ScriptProgrammingggg](https://github.com/Kittynakaa/Final_project_ScriptProgrammingggg) · สรุปที่ [Final Project/README.md](Final%20Project/README.md)
 
 ## certificate
 

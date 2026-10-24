@@ -1,0 +1,109 @@
+
+--- API Data Fetcher Menu ---
+1. Fetch a Single TODO Item
+2. Fetch All Posts
+3. Fetch TODOs by User ID
+4. Exit
+----------------------------
+Enter your choice (1-4): 1
+Enter TODO ID (e.g., 1, 5, 10): 1
+[INFO] GET https://jsonplaceholder.typicode.com/todos/1
+[INFO] Status code: 200
+
+--- TODO Item Details ---
+ID        : 1
+User ID   : 1
+Title     : delectus aut autem
+Completed : False
+-------------------------
+
+--- API Data Fetcher Menu ---
+1. Fetch a Single TODO Item
+2. Fetch All Posts
+3. Fetch TODOs by User ID
+4. Exit
+----------------------------
+Enter your choice (1-4): 4
+Exiting API Data Fetcher. Goodbye!
+
+--- API Data Fetcher Menu ---
+1. Fetch a Single TODO Item
+2. Fetch All Posts
+3. Fetch TODOs by User ID
+4. Exit
+----------------------------
+Enter your choice (1-4): 2
+[INFO] GET https://jsonplaceholder.typicode.com/posts
+[INFO] Status code: 200
+
+--- First 5 of 100 Posts ---
+[Post 1] User ID: 1
+  Title: sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+  Body : quia et suscipit suscipit recusandae consequuntur ...
+[Post 2] User ID: 1
+  Title: qui est esse
+  Body : est rerum tempore vitae sequi sint nihil reprehend...
+[Post 3] User ID: 1
+  Title: ea molestias quasi exercitationem repellat qui ipsa sit aut
+  Body : et iusto sed quo iure voluptatem occaecati omnis e...
+[Post 4] User ID: 1
+  Title: eum et est occaecati
+  Body : ullam et saepe reiciendis voluptatem adipisci sit ...
+[Post 5] User ID: 1
+  Title: nesciunt quas odio
+  Body : repudiandae veniam quaerat sunt sed alias aut fugi...
+... and 95 more posts not shown.
+-----------------------------
+
+--- API Data Fetcher Menu ---
+1. Fetch a Single TODO Item
+2. Fetch All Posts
+3. Fetch TODOs by User ID
+4. Exit
+----------------------------
+Enter your choice (1-4): 4
+Exiting API Data Fetcher. Goodbye!
+
+--- API Data Fetcher Menu ---
+1. Fetch a Single TODO Item
+2. Fetch All Posts
+3. Fetch TODOs by User ID
+4. Exit
+----------------------------
+Enter your choice (1-4): 3
+Enter User ID (e.g., 1, 2, 3): 1
+[INFO] GET https://jsonplaceholder.typicode.com/todos params={'userId': 1}
+[INFO] Status code: 200
+
+--- TODOs for User ID 1 ---
+ID:   1 | Pending   | delectus aut autem
+ID:   2 | Pending   | quis ut nam facilis et officia qui
+ID:   3 | Pending   | fugiat veniam minus
+ID:   4 | Completed | et porro tempora
+ID:   5 | Pending   | laboriosam mollitia et enim quasi adipisci quia provident illum
+ID:   6 | Pending   | qui ullam ratione quibusdam voluptatem quia omnis
+ID:   7 | Pending   | illo expedita consequatur quia in
+ID:   8 | Completed | quo adipisci enim quam ut ab
+ID:   9 | Pending   | molestiae perspiciatis ipsa
+ID:  10 | Completed | illo est ratione doloremque quia maiores aut
+ID:  11 | Completed | vero rerum temporibus dolor
+ID:  12 | Completed | ipsa repellendus fugit nisi
+ID:  13 | Pending   | et doloremque nulla
+ID:  14 | Completed | repellendus sunt dolores architecto voluptatum
+ID:  15 | Completed | ab voluptatum amet voluptas
+ID:  16 | Completed | accusamus eos facilis sint et aut voluptatem
+ID:  17 | Completed | quo laboriosam deleniti aut qui
+ID:  18 | Pending   | dolorum est consequatur ea mollitia in culpa
+ID:  19 | Completed | molestiae ipsa aut voluptatibus pariatur dolor nihil
+ID:  20 | Completed | ullam nobis libero sapiente ad optio sint
+Summary: 11/20 completed
+-----------------------------
+
+--- API Data Fetcher Menu ---
+1. Fetch a Single TODO Item
+2. Fetch All Posts
+3. Fetch TODOs by User ID
+4. Exit
+----------------------------
+Enter your choice (1-4): 4
+Exiting API Data Fetcher. Goodbye!

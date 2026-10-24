@@ -1,0 +1,166 @@
+
+--- Enhanced Task Manager Menu (Week 11) ---
+1. Add Normal Task
+2. Add Due Date Task
+3. Add Priority Task
+4. List All Tasks
+5. Complete Task
+6. Delete Task
+7. Search Tasks
+8. Filter Tasks
+9. Sort Tasks
+0. Exit
+--------------------------------------------
+Enter your choice (0-9): 4
+
+--- Your Tasks (5) ---
+ID: 1 | Description: Read PLAN.md and understand the architecture | Status: Completed | Tags: study, week11
+ID: 2 | Description: Submit enhanced Task Manager design | Status: Pending | Due: 2026-10-30 | Tags: assignment, university
+ID: 3 | Description: Implement search, filter and sort | Status: Pending | Priority: High | Tags: coding, python
+ID: 4 | Description: Review data persistence and JSON serialization | Status: Pending | Priority: Medium | Tags: review, python
+ID: 5 | Description: Prepare project exam slides | Status: Pending | Due: 2026-11-05 | Tags: project
+------------------------------
+
+--- Enhanced Task Manager Menu (Week 11) ---
+1. Add Normal Task
+2. Add Due Date Task
+3. Add Priority Task
+4. List All Tasks
+5. Complete Task
+6. Delete Task
+7. Search Tasks
+8. Filter Tasks
+9. Sort Tasks
+0. Exit
+--------------------------------------------
+Enter your choice (0-9): 7
+Enter search keyword (description or tag): python
+
+--- Search Results for 'python' (2) ---
+ID: 3 | Description: Implement search, filter and sort | Status: Pending | Priority: High | Tags: coding, python
+ID: 4 | Description: Review data persistence and JSON serialization | Status: Pending | Priority: Medium | Tags: review, python
+------------------------------
+
+--- Enhanced Task Manager Menu (Week 11) ---
+1. Add Normal Task
+2. Add Due Date Task
+3. Add Priority Task
+4. List All Tasks
+5. Complete Task
+6. Delete Task
+7. Search Tasks
+8. Filter Tasks
+9. Sort Tasks
+0. Exit
+--------------------------------------------
+Enter your choice (0-9): 8
+
+--- Filter Tasks (press Enter to skip a criterion) ---
+Completed? (true/false): false
+Due on or before (YYYY-MM-DD): 
+Priority (High/Medium/Low): 
+Tag: python
+
+--- Filtered Tasks (2) ---
+ID: 3 | Description: Implement search, filter and sort | Status: Pending | Priority: High | Tags: coding, python
+ID: 4 | Description: Review data persistence and JSON serialization | Status: Pending | Priority: Medium | Tags: review, python
+------------------------------
+
+--- Enhanced Task Manager Menu (Week 11) ---
+1. Add Normal Task
+2. Add Due Date Task
+3. Add Priority Task
+4. List All Tasks
+5. Complete Task
+6. Delete Task
+7. Search Tasks
+8. Filter Tasks
+9. Sort Tasks
+0. Exit
+--------------------------------------------
+Enter your choice (0-9): 9
+Sort by (id, due_date, priority - default: id): priority
+Reverse order? (yes/no - default: no): no
+
+--- Sorted by priority (5) ---
+ID: 3 | Description: Implement search, filter and sort | Status: Pending | Priority: High | Tags: coding, python
+ID: 4 | Description: Review data persistence and JSON serialization | Status: Pending | Priority: Medium | Tags: review, python
+ID: 1 | Description: Read PLAN.md and understand the architecture | Status: Completed | Tags: study, week11
+ID: 2 | Description: Submit enhanced Task Manager design | Status: Pending | Due: 2026-10-30 | Tags: assignment, university
+ID: 5 | Description: Prepare project exam slides | Status: Pending | Due: 2026-11-05 | Tags: project
+------------------------------
+
+--- Enhanced Task Manager Menu (Week 11) ---
+1. Add Normal Task
+2. Add Due Date Task
+3. Add Priority Task
+4. List All Tasks
+5. Complete Task
+6. Delete Task
+7. Search Tasks
+8. Filter Tasks
+9. Sort Tasks
+0. Exit
+--------------------------------------------
+Enter your choice (0-9): 9
+Sort by (id, due_date, priority - default: id): due_date
+Reverse order? (yes/no - default: no): no
+
+--- Sorted by due_date (5) ---
+ID: 2 | Description: Submit enhanced Task Manager design | Status: Pending | Due: 2026-10-30 | Tags: assignment, university
+ID: 5 | Description: Prepare project exam slides | Status: Pending | Due: 2026-11-05 | Tags: project
+ID: 1 | Description: Read PLAN.md and understand the architecture | Status: Completed | Tags: study, week11
+ID: 3 | Description: Implement search, filter and sort | Status: Pending | Priority: High | Tags: coding, python
+ID: 4 | Description: Review data persistence and JSON serialization | Status: Pending | Priority: Medium | Tags: review, python
+------------------------------
+
+--- Enhanced Task Manager Menu (Week 11) ---
+1. Add Normal Task
+2. Add Due Date Task
+3. Add Priority Task
+4. List All Tasks
+5. Complete Task
+6. Delete Task
+7. Search Tasks
+8. Filter Tasks
+9. Sort Tasks
+0. Exit
+--------------------------------------------
+Enter your choice (0-9): 2
+Enter task description: Write README
+Enter due date (YYYY-MM-DD): 2026-13-01
+Invalid date format. Please use YYYY-MM-DD (e.g., 2026-12-31).
+Enter due date (YYYY-MM-DD): 2026-10-28
+Enter tags (comma-separated, e.g. work,urgent - optional): docs
+Due Date Task 'Write README' (Due: 2026-10-28) added with ID 6.
+
+--- Enhanced Task Manager Menu (Week 11) ---
+1. Add Normal Task
+2. Add Due Date Task
+3. Add Priority Task
+4. List All Tasks
+5. Complete Task
+6. Delete Task
+7. Search Tasks
+8. Filter Tasks
+9. Sort Tasks
+0. Exit
+--------------------------------------------
+Enter your choice (0-9): 5
+Enter ID of task to complete: abc
+Invalid input. Please enter a number for Task ID.
+
+--- Enhanced Task Manager Menu (Week 11) ---
+1. Add Normal Task
+2. Add Due Date Task
+3. Add Priority Task
+4. List All Tasks
+5. Complete Task
+6. Delete Task
+7. Search Tasks
+8. Filter Tasks
+9. Sort Tasks
+0. Exit
+--------------------------------------------
+Enter your choice (0-9): 0
+Exiting Task Manager. Goodbye!

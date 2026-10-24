@@ -1,0 +1,114 @@
+Loaded 0 task(s).
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 2
+No tasks found. Choose 1 to add one.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 1
+Enter task description: Finish Class Activity 1
+Task 'Finish Class Activity 1' added with ID 1.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 1
+Enter task description: Push project to GitHub
+Task 'Push project to GitHub' added with ID 2.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 1
+Enter task description: 
+Task description cannot be empty.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 3
+Enter ID of task to complete: 1
+Task ID 1 marked as completed.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 3
+Enter ID of task to complete: abc
+Invalid input 'abc'. Please enter a number for Task ID.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 4
+Enter ID of task to delete: 9
+Error: Task with ID 9 not found.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 7
+Invalid choice. Please enter a number between 1 and 5.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 2
+
+============================================================
+ID    | Status     | Description
+------------------------------------------------------------
+#1    | [DONE]     | Finish Class Activity 1
+#2    | [PENDING]  | Push project to GitHub
+============================================================
+Summary: 1/2 task(s) completed.
+
+--- Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 5
+Saving tasks and exiting. Goodbye!

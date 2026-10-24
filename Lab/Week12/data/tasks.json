@@ -1,0 +1,64 @@
+[
+    {
+        "id": 1,
+        "description": "Read chapter 12 of the Python textbook",
+        "completed": true,
+        "tags": ["study", "python"],
+        "_type": "Task"
+    },
+    {
+        "id": 2,
+        "description": "Submit LabX ADV week 12",
+        "completed": false,
+        "tags": ["study", "lab", "urgent"],
+        "due_date": "2026-10-26",
+        "_type": "DueDateTask"
+    },
+    {
+        "id": 3,
+        "description": "Prepare final project presentation slides",
+        "completed": false,
+        "tags": ["study", "project"],
+        "priority": "High",
+        "_type": "PriorityTask"
+    },
+    {
+        "id": 4,
+        "description": "Buy groceries",
+        "completed": false,
+        "tags": ["home"],
+        "_type": "Task"
+    },
+    {
+        "id": 5,
+        "description": "Badminton court booking - project exam",
+        "completed": false,
+        "tags": ["project", "exam"],
+        "due_date": "2026-11-05",
+        "_type": "DueDateTask"
+    },
+    {
+        "id": 6,
+        "description": "Clean up GitHub repositories",
+        "completed": false,
+        "tags": ["github"],
+        "priority": "Low",
+        "_type": "PriorityTask"
+    },
+    {
+        "id": 7,
+        "description": "Review lecture notes on OOP",
+        "completed": false,
+        "tags": ["study", "python"],
+        "priority": "Medium",
+        "_type": "PriorityTask"
+    },
+    {
+        "id": 8,
+        "description": "Pay internet bill",
+        "completed": true,
+        "tags": ["home", "urgent"],
+        "due_date": "2026-10-20",
+        "_type": "DueDateTask"
+    }
+]

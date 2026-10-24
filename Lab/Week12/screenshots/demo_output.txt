@@ -1,0 +1,126 @@
+
+===== Enhanced Task Manager =====
+ 1. Add Normal Task
+ 2. Add Due Date Task
+ 3. Add Priority Task
+ 4. List All Tasks
+ 5. Complete Task
+ 6. Delete Task
+ 7. Search Tasks
+ 8. Filter Tasks
+ 9. Sort Tasks
+10. Add / Remove Tags
+ 0. Exit
+=================================
+Enter your choice (0-10): 4
+
+--- All Tasks (8) ---
+ID: 1 | Description: Read chapter 12 of the Python textbook | Status: Completed | Tags: study, python
+ID: 2 | Description: Submit LabX ADV week 12 | Status: Pending | Due: 2026-10-26 | Tags: study, lab, urgent
+ID: 3 | Description: Prepare final project presentation slides | Status: Pending | Priority: High | Tags: study, project
+ID: 4 | Description: Buy groceries | Status: Pending | Tags: home
+ID: 5 | Description: Badminton court booking - project exam | Status: Pending | Due: 2026-11-05 | Tags: project, exam
+ID: 6 | Description: Clean up GitHub repositories | Status: Pending | Priority: Low | Tags: github
+ID: 7 | Description: Review lecture notes on OOP | Status: Pending | Priority: Medium | Tags: study, python
+ID: 8 | Description: Pay internet bill | Status: Completed | Due: 2026-10-20 | Tags: home, urgent
+----------------------------------------
+
+[menu]
+Enter your choice (0-10): 3
+Enter task description: Write Week 12 README
+Enter priority (High/Medium/Low): high
+Enter tags (comma-separated, optional): study, Docs
+Priority Task 'Write Week 12 README' (Priority: High) added with ID 9.
+
+[menu]
+Enter your choice (0-10): 7
+Enter search keyword (description or tags): project
+
+--- Search results for 'project' (2) ---
+ID: 3 | Description: Prepare final project presentation slides | Status: Pending | Priority: High | Tags: study, project
+ID: 5 | Description: Badminton court booking - project exam | Status: Pending | Due: 2026-11-05 | Tags: project, exam
+----------------------------------------
+
+[menu]
+Enter your choice (0-10): 8
+
+--- Filter Tasks (leave blank to skip a criterion) ---
+Completed? (yes/no): no
+Due on or before (YYYY-MM-DD): 
+Due on or after (YYYY-MM-DD): 
+Priority (High/Medium/Low): 
+Must have ALL these tags (comma-separated): study
+
+--- Filtered Tasks (4) ---
+ID: 2 | Description: Submit LabX ADV week 12 | Status: Pending | Due: 2026-10-26 | Tags: study, lab, urgent
+ID: 3 | Description: Prepare final project presentation slides | Status: Pending | Priority: High | Tags: study, project
+ID: 7 | Description: Review lecture notes on OOP | Status: Pending | Priority: Medium | Tags: study, python
+ID: 9 | Description: Write Week 12 README | Status: Pending | Priority: High | Tags: study, docs
+----------------------------------------
+
+[menu]
+Enter your choice (0-10): 9
+
+--- Sort Tasks ---
+Criteria: id, description, completed, due_date, priority
+Sort by (default: id): due_date
+Descending order? (yes/no, default: no): no
+
+--- Sorted by due_date (Ascending) (9) ---
+ID: 8 | Description: Pay internet bill | Status: Completed | Due: 2026-10-20 | Tags: home, urgent
+ID: 2 | Description: Submit LabX ADV week 12 | Status: Pending | Due: 2026-10-26 | Tags: study, lab, urgent
+ID: 5 | Description: Badminton court booking - project exam | Status: Pending | Due: 2026-11-05 | Tags: project, exam
+ID: 1 | Description: Read chapter 12 of the Python textbook | Status: Completed | Tags: study, python
+ID: 3 | Description: Prepare final project presentation slides | Status: Pending | Priority: High | Tags: study, project
+ID: 4 | Description: Buy groceries | Status: Pending | Tags: home
+ID: 6 | Description: Clean up GitHub repositories | Status: Pending | Priority: Low | Tags: github
+ID: 7 | Description: Review lecture notes on OOP | Status: Pending | Priority: Medium | Tags: study, python
+ID: 9 | Description: Write Week 12 README | Status: Pending | Priority: High | Tags: study, docs
+----------------------------------------
+
+[menu]
+Enter your choice (0-10): 9
+
+--- Sort Tasks ---
+Criteria: id, description, completed, due_date, priority
+Sort by (default: id): priority
+Descending order? (yes/no, default: no): yes
+
+--- Sorted by priority (Descending) (9) ---
+ID: 6 | Description: Clean up GitHub repositories | Status: Pending | Priority: Low | Tags: github
+ID: 7 | Description: Review lecture notes on OOP | Status: Pending | Priority: Medium | Tags: study, python
+ID: 3 | Description: Prepare final project presentation slides | Status: Pending | Priority: High | Tags: study, project
+ID: 9 | Description: Write Week 12 README | Status: Pending | Priority: High | Tags: study, docs
+ID: 1 | Description: Read chapter 12 of the Python textbook | Status: Completed | Tags: study, python
+ID: 2 | Description: Submit LabX ADV week 12 | Status: Pending | Due: 2026-10-26 | Tags: study, lab, urgent
+ID: 4 | Description: Buy groceries | Status: Pending | Tags: home
+ID: 5 | Description: Badminton court booking - project exam | Status: Pending | Due: 2026-11-05 | Tags: project, exam
+ID: 8 | Description: Pay internet bill | Status: Completed | Due: 2026-10-20 | Tags: home, urgent
+----------------------------------------
+
+[menu]
+Enter your choice (0-10): 10
+Enter ID of task to edit tags: 4
+ID: 4 | Description: Buy groceries | Status: Pending | Tags: home
+(a)dd or (r)emove tags? a
+Tags to add (comma-separated): urgent
+Tags now: home, urgent
+
+[menu]
+Enter your choice (0-10): 5
+Enter ID of task to complete: 2
+Task marked as completed.
+
+[menu]
+Enter your choice (0-10): 6
+Enter ID of task to delete: 6
+Delete 'Clean up GitHub repositories'? (yes/no): yes
+Task deleted successfully.
+
+[menu]
+Enter your choice (0-10): 99
+Invalid choice. Please enter a number between 0 and 10.
+
+[menu]
+Enter your choice (0-10): 0
+Exiting Task Manager. Goodbye!

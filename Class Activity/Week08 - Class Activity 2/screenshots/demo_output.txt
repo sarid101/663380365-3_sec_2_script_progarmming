@@ -1,0 +1,90 @@
+
+--- OOP Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 1
+Enter task description: Read OOP lecture notes
+Task 'Read OOP lecture notes' added with ID 1.
+
+--- OOP Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 1
+Enter task description: Refactor Task Manager into classes
+Task 'Refactor Task Manager into classes' added with ID 2.
+
+--- OOP Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 3
+Enter ID of task to complete: 2
+Task ID 2 marked as completed.
+
+--- OOP Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 3
+Enter ID of task to complete: 2
+Task ID 2 is already completed.
+
+--- OOP Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 3
+Enter ID of task to complete: xyz
+Invalid input. Please enter a number for Task ID.
+
+--- OOP Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 4
+Enter ID of task to delete: 7
+Error: Task with ID 7 not found.
+
+--- OOP Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 2
+
+--- Your Tasks ---
+ID: 1 | Description: Read OOP lecture notes | Status: Pending
+ID: 2 | Description: Refactor Task Manager into classes | Status: Completed
+------------------
+
+--- OOP Task Manager Menu ---
+1. Add Task
+2. List Tasks
+3. Complete Task
+4. Delete Task
+5. Exit
+-------------------------
+Enter your choice (1-5): 5
+Exiting Task Manager. Goodbye!
